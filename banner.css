@@ -1,0 +1,56 @@
+.banner-svg {
+    width: 160px;
+    height: 600px;
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.banner-bg-start {
+    fill: #D9D8DB;
+}
+
+.banner-bg-end {
+    fill: #505050;
+}
+
+.banner-svg rect {
+    transition: fill 2s ease-in-out;
+}
+
+.intro-text-group text {
+    font-size: 30px;
+    opacity: 0;
+    fill: #FF6633;
+}
+
+.letter {
+    font-size: 80px;
+    opacity: 0;
+    fill: #E0B112;
+}
+
+.svg-container {
+    position: relative;
+    width: 160px;
+}
+
+.banner-svg {
+    width: 100%;
+    height: auto;
+}
+
+.go-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #E0B112;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-weight: bold;
+}
+
